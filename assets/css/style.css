@@ -1,0 +1,78 @@
+body {
+	background: url(../images/R00491_1.jpg)
+}
+
+img {
+	background: white;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	background: lightblue;
+	height: 45px;
+	width: 300px;
+	font-size: 30px;
+	padding: 10px;
+	margin: 10px;
+}
+.wl {
+	background: lightyellow;
+	color: lightgreen;
+	width: 200px;
+	height: 100px;
+	padding: 5px;
+}
+
+#targetNumber {
+	color: lightgreen;
+	background: lightyellow;
+	width: 150px;
+	height: 100px;
+	font-size: 40px;
+	padding: 5px;
+}
+
+#top {
+	background: lightyellow;
+	color: lightgreen;
+	width: 210px;
+	margin: 10px;
+	font-size: 18px;
+}
+
+#score {
+	background: lightyellow;
+	color: lightgreen;
+	width: 200px;
+	height: 100px;
+	font-size: 40px;
+	padding: 5px;
+	margin: 0 0 10px 10px;
+}
+
+.container {
+	padding: 10px;
+	color: lightpink;
+	background: lightyellow;
+}
+
+.aside {
+	display: flex;
+	width: 300px;
+  	justify-content: space-between;
+  	margin: 10px;
+}
+
+.results {
+	color: lightgreen;
+	background: lightyellow;
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+}
+
+.crystal {
+	margin: 10px;
+}
