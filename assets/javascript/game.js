@@ -20,6 +20,7 @@ var crystal3;
 var crystal4;
 var loading = $("<img>");
 loading.attr("src", "http://www.google.de/images/swxa.gif");
+var audio = new Audio("glass_ping-Go445-1207030150.mp3");
 
 function newNumber () {
 
@@ -66,6 +67,7 @@ $("#crystal1").on("click", function() {
   counter += crystal1;
   $("#score").text(counter);
   console.log(counter);
+  audio.play();
 
   if (counter === playingNumber) {
       wins++;
@@ -92,6 +94,7 @@ $("#crystal2").on("click", function() {
      counter += crystal2;
      console.log(counter);
      $("#score").text(counter);
+     audio.play();
 
   if (counter === playingNumber) {
 
@@ -119,6 +122,7 @@ $("#crystal3").on("click", function() {
   counter += crystal3;
   console.log(counter);
   $("#score").text(counter);
+  audio.play();
   
   if (counter === playingNumber) {
 wins++;
@@ -144,6 +148,7 @@ $("#crystal4").on("click", function() {
   counter += crystal4;
   console.log(counter);
   $("#score").text(counter);
+  audio.play();
 
   if (counter === playingNumber) {
       wins++;

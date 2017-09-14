@@ -3,7 +3,6 @@ body {
 }
 
 img {
-	background: white;
 	padding: 10px;
 }
 
@@ -12,7 +11,6 @@ h1 {
 	color: white;
 	background: lightblue;
 	height: 45px;
-	width: 300px;
 	font-size: 30px;
 	padding: 10px;
 	margin: 10px;
@@ -20,16 +18,16 @@ h1 {
 .wl {
 	background: lightyellow;
 	color: lightgreen;
-	width: 200px;
-	height: 100px;
+	width: 250px;
+	height: 200px;
 	padding: 5px;
 }
 
 #targetNumber {
 	color: lightgreen;
 	background: lightyellow;
-	width: 150px;
-	height: 100px;
+	width: 250px;
+	height: 200px;
 	font-size: 40px;
 	padding: 5px;
 }
@@ -60,7 +58,7 @@ h1 {
 
 .aside {
 	display: flex;
-	width: 300px;
+	width: 530px;
   	justify-content: space-between;
   	margin: 10px;
 }
@@ -68,11 +66,19 @@ h1 {
 .results {
 	color: lightgreen;
 	background: lightyellow;
-	width: 100px;
-	height: 100px;
+	width: 250px;
+	height: 150px;
 	padding: 5px;
+	font-size: 20px;
 }
 
 .crystal {
 	margin: 10px;
+}
+
+button {
+	background: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: lightblue;
 }
